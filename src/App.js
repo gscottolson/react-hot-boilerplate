@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Layout from './Layout';
-import Counter from './Counter';
+import BlockEditor from './BlockEditor';
 
 // If you use React Router, make this component
 // render <Router> with your routes. Currently,
@@ -13,7 +13,7 @@ export default class App extends Component {
   render() {
     return (
       <Layout>
-        <Counter />
+        <BlockEditor />
       </Layout>
     );
   }
